@@ -13,10 +13,12 @@
 }
     table {
       margin-top: 20px;
+      margin-bottom: 40px;
     }
     .reunus {
       margin-left: 30px;
       margin-top: 30px;
+      margin-bottom: 30px;
     }
     .alle5 {
     background-color: rgb(33, 85, 196);
@@ -36,15 +38,21 @@
     .perus {
     background-color: rgb(222, 222, 222);
     }
+    .pieni_prantti {
+      position: fixed;
+      bottom: 20px;
+      font-size: xx-small;
+    }
   </style>
 </head>
 <body id="tausta" class="perus">
   <div class = "reunus">
-    <h3>Uimavesien lämpötilat Helsingissä</h3>
+    <h3>Uimavesien lämpötilat PK-seudulla</h3>
   <select name="uimaranta" id="uimaranta" onchange="valinta()">
     <option value="">Valitse</option>
 	</select>
 <div id="tiedot"></div>
+<div class = "pieni_prantti">Lähde: <a href = "https://hri.fi/data/dataset/veden-reaaliaikainen-lampotila-helsingin-uimarannoilla">Veden reaaliaikainen lämpötila pääkaupunkiseudun uimarannoilla.</a> Datan ylläpitäjä on Forum Virium Helsinki Oy. Data on ladattu Helsinki Region Infoshare -palvelusta 26.04.2026 lisenssillä Creative Commons Attribution 4.0.</div>
 </div>
 <script>
   
