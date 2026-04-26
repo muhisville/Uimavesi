@@ -40,10 +40,9 @@
 </head>
 <body id="tausta" class="tausta">
   <div class = "reunus">
-    <h3>Uimavesien lämpötilat Helsingin rannoilla</h3>
+    <h3>Uimavesien lämpötilat Helsingissä</h3>
   <select name="uimaranta" id="uimaranta" onchange="valinta()">
     <option value="-">Valitse</option>
-		<p id="listaus"></p>
 	</select>
 <div id="tiedot"></div>
 </div>
@@ -64,7 +63,7 @@ xmlhttp.onreadystatechange = function () {
     console.log(data);
 
 // Haetaan html-dokumentista alasvetovalikko
-let listaus = document.querySelector("#listaus")
+let listaus = document.querySelector("#uimaranta")
 
 // Käydään JSON-data läpi ja muodostetaan lista uimarannoista
     let lista = ""
