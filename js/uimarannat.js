@@ -115,6 +115,6 @@ xmlhttp.onreadystatechange = function () {
     }
 }
 }
+// Lähetetään AJAX-olio
 xmlhttp.send();
 };
-// Lähetetään AJAX-olio
