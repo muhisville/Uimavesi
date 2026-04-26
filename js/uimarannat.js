@@ -18,7 +18,6 @@ let listaus = document.querySelector("#uimaranta")
     let lista = ""
     for (let i=0; i < data.features.length; i++){
         let uimaranta = data.features[i].properties.name
-        console.log(uimaranta)
         // Lisätään ehtolause, joka poistaa uimaranta-valikosta vanhat ja toimimattomat mittarit
         if(data.features[i].properties.measurement !== undefined){
         // Lisätään listalle validoidut uimapaikat sekä taulukon numero value-kenttään
