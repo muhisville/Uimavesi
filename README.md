@@ -41,27 +41,25 @@ Sovelluksen taustaväri vaihtuu sen mukaan, miten lammintä näytettävän uimar
 
 ## Kuvakaappaukset
 Lisää tähän vähintään yksi kuvakaappaus toimivasta sovelluksesta  
-`![Kirjoittaminen](https://unsplash.com/photos/VBPzRgd7gfc)`
+`![Sovellus](https://raw.githubusercontent.com/muhisville/Uimavesi/refs/heads/main/kuvat/uimavedet.png)`
 
-Kuva: [Kelly Sikkema](https://unsplash.com/@kellysikkema)
+Kuva: [Ville Muhonen]
 
 ## Teknologiat
 Kuvaa, mitä teknologioita käytettiin ja mikä oli niiden rooli projektissasi.  
-Käytin seuraavia teknologioita: `html`, `css`, ...
+Käytin seuraavia teknologioita: `html`, `css`, `Java Script`
 
 ## Asennus
 Kirjoita lyhyet ohjeet sovelluksen käynnistämiseen ja käyttöön. Esimerkiksi:  
-- lataa kaikki tiedostot ja avaa index.html selaimessasi  
-- lataa tai kloonaa repositorio  
-- suorita `npm install`  
-- ...
+- mene osoitteeseen https://uimavedet.netlify.app/
+- valitse alasvetovalikosta haluamasi uimaranta ja katso veden lämpötila 
 
 ## Kiitokset
-Lista lähteistä ja esimerkeistä, joita käytit projektin aikana. Mainitse myös, jos käytit ChatGPT:tä tai muita tekoälytyökaluja koodauksen aikana ja kerro, miten ne auttoivat sinua.  
-- [John Doe](johndoe.com)  
-- [Beginners guide to BEM](link-goes-here.com)  
+- [Opettajan materiaali ja luentotallenteet](https://mika-stenberg.gitbook.io/web-sovelluksia-javascriptin-avulla)  
+- [W3schools.com](https://www.w3schools.com/)  
+- [Copilot](https://copilot.microsoft.com/) Tekoälyä on käytetty apuna koodin tarkistamisessa sekä spvelluksen ulkoasuun liittyvien ongelmien ratkaisussa.
+- Kiitos myös opiskelijatoveri Iina Karhulle avusta, vertaistuesta ja sparrauksesta.
+
 
 ## Lisenssi
-Valitse projektille lisenssi seuraamalla tätä [opasta](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository).
-
-Esimerkki: MIT-lisenssi @ [tekijä](author.com)
+MIT-lisenssi @ [Ville Muhonen]
