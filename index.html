@@ -38,15 +38,16 @@
     }
   </style>
 </head>
-<body id="tausta" class="tausta">
+<body id="tausta" class="perus">
   <div class = "reunus">
     <h3>Uimavesien lämpötilat Helsingissä</h3>
   <select name="uimaranta" id="uimaranta" onchange="valinta()">
-    <option value="-">Valitse</option>
+    <option value="">Valitse</option>
 	</select>
 <div id="tiedot"></div>
 </div>
 <script>
+  
 // Lisätään uimarannat pudotusvalikkoon
 // Luodaan AJAX-olio
 var xmlhttp = new XMLHttpRequest();
@@ -81,7 +82,7 @@ let listaus = document.querySelector("#uimaranta")
     }
     console.log(lista)
     // Lisätään lista valikkoon
-    listaus.innerHTML = lista
+    listaus.innerHTML += lista
 }
 }
 // Haetaan uimavesidata API:sta käyttäjän valinnan perusteella
@@ -112,23 +113,23 @@ xmlhttp.onreadystatechange = function () {
     let lampotila = data.features[idnumero].properties.measurement.temp_water
     // Määrätään sivun taustaväri vaihtumaan veden lämpötilan mukaan
     if (lampotila < 5.00) {
-      tausta.classList.remove("alle5", "alle10", "alle15", "alle20", "yli20")
+      tausta.classList.remove("perus", "alle5", "alle10", "alle15", "alle20", "yli20")
       tausta.classList.add("alle5");
     }
     else if (lampotila < 10.00) {
-      tausta.classList.remove("alle5", "alle10", "alle15", "alle20", "yli20")
+      tausta.classList.remove("perus", "alle5", "alle10", "alle15", "alle20", "yli20")
       tausta.classList.add("alle10");
     }
     else if (lampotila < 15.00) {
-      tausta.classList.remove("alle5", "alle10", "alle15", "alle20", "yli20")
+      tausta.classList.remove("perus", "alle5", "alle10", "alle15", "alle20", "yli20")
       tausta.classList.add("alle15");
     }
     else if (lampotila < 20.00) {
-      tausta.classList.remove("alle5", "alle10", "alle15", "alle20", "yli20")
+      tausta.classList.remove("perus", "alle5", "alle10", "alle15", "alle20", "yli20")
       tausta.classList.add("alle20");
     }
     else if (lampotila >= 20.00){
-      tausta.classList.remove("alle5", "alle10", "alle15", "alle20", "yli20")
+      tausta.classList.remove("perus", "alle5", "alle10", "alle15", "alle20", "yli20")
       tausta.classList.add("yli20");
     }
     // Haetaan mittausaika
