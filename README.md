@@ -37,31 +37,28 @@ Oppimistani tukisi jos voisin keskittyä kurssiin täysipainoisemmin, sillä koo
 [Uimavedet] on sovellus, joka kertoo käyttäjälle reaaliaikaista dataa pääkaupunkiseudun uimarantojen vesien lämpötiloista. Tiedot päivittyvät noin 30 minuutin välein.
 
 ## Tunnetut virheet/bugit
-Sovelluksen taustaväri vaihtuu sen mukaan, miten lammintä näytettävän uimarannan vesi on. Kaikki lämpömittarit eivät kuitenkaan toimita oikeaa tietoa, sillä ne voivat olla talviteloilla tai muuten väliaikaisesti pois käytöstä. Tässä tapauksessa sovellus antaa virheilmoituksen. Taustaväri kuitenkin noudattaa edellisen, onnistuneen haun tulosta. Se ei ole varsinainen virhe, mutta olisi kiva korjata jossain vaiheessa.
+Sovelluksen taustaväri vaihtuu sen mukaan, miten lammintä näytettävän uimarannan vesi on. Kaikki lämpömittarit eivät kuitenkaan toimita oikeaa tietoa, sillä ne voivat olla talviteloilla tai muuten väliaikaisesti pois käytöstä. Tässä tapauksessa sovellus antaa virheilmoituksen "Tietoa ei voida hakea", mutta taustaväri ei vaihdu vaan noudattaa edellisen, onnistuneen haun tulosta. Se ei ole varsinainen virhe, mutta olisi kiva korjata jossain vaiheessa.
 
 ## Kuvakaappaukset
-Lisää tähän vähintään yksi kuvakaappaus toimivasta sovelluksesta  
-`![Kirjoittaminen](https://unsplash.com/photos/VBPzRgd7gfc)`
-
-Kuva: [Kelly Sikkema](https://unsplash.com/@kellysikkema)
+`![Sovellus](https://raw.githubusercontent.com/muhisville/Uimavesi/refs/heads/main/kuvat/uimavedet.png)`
+Kuva: Ville Muhonen
 
 ## Teknologiat
-Kuvaa, mitä teknologioita käytettiin ja mikä oli niiden rooli projektissasi.  
-Käytin seuraavia teknologioita: `html`, `css`, ...
+Käytin seuraavia teknologioita: `html`, `css` ja `Java Script`
 
 ## Asennus
 Kirjoita lyhyet ohjeet sovelluksen käynnistämiseen ja käyttöön. Esimerkiksi:  
-- lataa kaikki tiedostot ja avaa index.html selaimessasi  
-- lataa tai kloonaa repositorio  
-- suorita `npm install`  
-- ...
+- Mene osoitteeseen https://uimavedet.netlify.app/
+- Valitse alasvetovalikosta haluamasi uimaranta ja tarkastele veden lämpötilaa
 
 ## Kiitokset
 Lista lähteistä ja esimerkeistä, joita käytit projektin aikana. Mainitse myös, jos käytit ChatGPT:tä tai muita tekoälytyökaluja koodauksen aikana ja kerro, miten ne auttoivat sinua.  
-- [John Doe](johndoe.com)  
-- [Beginners guide to BEM](link-goes-here.com)  
+- [Opettajan materiaali sekä luentojen tallenteet](https://mika-stenberg.gitbook.io/web-sovelluksia-javascriptin-avulla)  
+- [W3Schools](https://www.w3schools.com)  
+- [Copilot](https://copilot.microsoft.com) Tekoälyä on käytetty sovelluksen taustaväritoiminnon ongelmien ratkomiseksi (ei ratkennut) sekä koodin virheiden metsästämiseen.
+- Kiitos opiskelijatoveri Iina Karhulle tuesta, neuvoista ja sparrauksesta.
 
 ## Lisenssi
-Valitse projektille lisenssi seuraamalla tätä [opasta](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository).
+Valitse projektille lisenssi seuraamalla tätä [](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository).
 
-Esimerkki: MIT-lisenssi @ [tekijä](author.com)
+MIT-lisenssi @ [Ville Muhonen]
