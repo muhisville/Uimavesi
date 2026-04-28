@@ -56,6 +56,7 @@ Lista lähteistä ja esimerkeistä, joita käytit projektin aikana. Mainitse my�
 - [Opettajan materiaali sekä luentojen tallenteet](https://mika-stenberg.gitbook.io/web-sovelluksia-javascriptin-avulla)  
 - [W3Schools](https://www.w3schools.com)  
 - [Copilot](https://copilot.microsoft.com) Tekoälyä on käytetty sovelluksen taustaväritoiminnon ongelmien ratkomiseksi (ei ratkennut) sekä koodin virheiden metsästämiseen.
+- [Bootstrap](https://getbootstrap.com) Bootstrapia on käytetty käyttöliittymän responsiivisuuden parantamiseen.
 - Kiitos opiskelijatoveri Iina Karhulle tuesta, neuvoista ja sparrauksesta.
 
 ## Lisenssi
